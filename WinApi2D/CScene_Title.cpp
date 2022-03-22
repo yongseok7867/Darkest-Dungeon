@@ -2,6 +2,7 @@
 #include "CScene_Title.h"
 #include "CImageObject.h"
 #include "CBackGroundObject.h"
+#include "CBgHousObject.h"
 
 CScene_Title::CScene_Title()
 {
@@ -24,6 +25,11 @@ void CScene_Title::Enter()
 	AddObject(BackGroundObjcet, GROUP_GAMEOBJ::BACKGROUND);
 
 	// 2. 백그라운드 이미지 출력용 오브젝트 제작
+	CBgHousObject* BgHousObjcet = new CBgHousObject;
+	BgHousObjcet->SetPos(fPoint(0.f, 500.f));
+	BgHousObjcet->SetScale(fPoint(1280.f, 220.f));
+	BgHousObjcet->Load(L"BgHousObjcetImage", L"texture\\title_house.png");
+	AddObject(BgHousObjcet, GROUP_GAMEOBJ::BACKGROUND);
  
 	// 3. 로고 출력용 오브젝트 제작
 	CImageObject* logoObjcet = new CImageObject;

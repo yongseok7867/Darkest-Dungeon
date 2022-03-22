@@ -42,13 +42,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -154,6 +154,7 @@
     <ClInclude Include="CAnimator.h" />
     <ClInclude Include="CBackGround.h" />
     <ClInclude Include="CBackGroundObject.h" />
+    <ClInclude Include="CBgHousObject.h" />
     <ClInclude Include="CButtonUI.h" />
     <ClInclude Include="CCameraManager.h" />
     <ClInclude Include="CCollisionManager.h" />
@@ -199,6 +200,7 @@
     <ClCompile Include="CAnimator.cpp" />
     <ClCompile Include="CBackGround.cpp" />
     <ClCompile Include="CBackGroundObject.cpp" />
+    <ClCompile Include="CBgHousObject.cpp" />
     <ClCompile Include="CButtonUI.cpp" />
     <ClCompile Include="CCameraManager.cpp" />
     <ClCompile Include="CCollisionManager.cpp" />

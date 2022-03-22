@@ -207,6 +207,9 @@
     <ClInclude Include="CBackGroundObject.h">
       <Filter>Object\Title</Filter>
     </ClInclude>
+    <ClInclude Include="CBgHousObject.h">
+      <Filter>Object\Title</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="WinApi2D.cpp">
@@ -318,6 +321,9 @@
       <Filter>Object\Title</Filter>
     </ClCompile>
     <ClCompile Include="CBackGroundObject.cpp">
+      <Filter>Object\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="CBgHousObject.cpp">
       <Filter>Object\Title</Filter>
     </ClCompile>
   </ItemGroup>
