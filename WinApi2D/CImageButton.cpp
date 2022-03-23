@@ -32,7 +32,7 @@ void CImageButton::render()
 		GetPos().x + GetScale().x,
 		GetPos().y + GetScale().y,
 		28.f,
-		RGB(255, 255, 100)
+		RGB(255, 255, 150)
 	);
 }
 

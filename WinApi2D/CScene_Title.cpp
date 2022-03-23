@@ -13,9 +13,18 @@ CScene_Title::~CScene_Title()
 
 }
 
+void ClickStartButton(DWORD_PTR, DWORD_PTR)
+{
+	ChangeScn(GROUP_SCENE::STAGE_01);
+}
+
+void ClickExitButton(DWORD_PTR, DWORD_PTR)
+{
+	PostQuitMessage(0);
+}
+
 void CScene_Title::Enter()
 {
-	// TODO : 
 	// 1. 백그라운드 출력용 오브젝트 제작
 	CImageObject* backGroundObjcet = new CImageObject;
 	backGroundObjcet->SetPos(fPoint(0.f, 0.f));
@@ -43,6 +52,7 @@ void CScene_Title::Enter()
 	startButton->SetText(L" 시작 하기");
 	startButton->SetPos(fPoint(500.f, 600.f));
 	startButton->SetScale(fPoint(300.f, 100.f));
+	startButton->SetClickedCallBack(ClickStartButton, 0, 0);
 	AddObject(startButton, GROUP_GAMEOBJ::UI);
 
 	// 5. 종료 버튼
@@ -50,6 +60,7 @@ void CScene_Title::Enter()
 	exitButton->Load(L"ExitButton", L"texture\\exit_button.png");
 	exitButton->SetPos(fPoint(1170.f,650.f));
 	exitButton->SetScale(fPoint(100.f, 50.f));
+	exitButton->SetClickedCallBack(ClickExitButton, 0, 0);
 	AddObject(exitButton, GROUP_GAMEOBJ::UI);
 }
 
