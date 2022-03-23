@@ -153,8 +153,6 @@
     <ClInclude Include="CAnimation.h" />
     <ClInclude Include="CAnimator.h" />
     <ClInclude Include="CBackGround.h" />
-    <ClInclude Include="CBackGroundObject.h" />
-    <ClInclude Include="CBgHousObject.h" />
     <ClInclude Include="CButtonUI.h" />
     <ClInclude Include="CCameraManager.h" />
     <ClInclude Include="CCollisionManager.h" />
@@ -164,6 +162,7 @@
     <ClInclude Include="CEventManager.h" />
     <ClInclude Include="CGameObject.h" />
     <ClInclude Include="CIdleState.h" />
+    <ClInclude Include="CImageButton.h" />
     <ClInclude Include="CImageObject.h" />
     <ClInclude Include="CKeyManager.h" />
     <ClInclude Include="CPanelUI.h" />
@@ -199,8 +198,6 @@
     <ClCompile Include="CAnimation.cpp" />
     <ClCompile Include="CAnimator.cpp" />
     <ClCompile Include="CBackGround.cpp" />
-    <ClCompile Include="CBackGroundObject.cpp" />
-    <ClCompile Include="CBgHousObject.cpp" />
     <ClCompile Include="CButtonUI.cpp" />
     <ClCompile Include="CCameraManager.cpp" />
     <ClCompile Include="CCollisionManager.cpp" />
@@ -210,6 +207,7 @@
     <ClCompile Include="CEventManager.cpp" />
     <ClCompile Include="CGameObject.cpp" />
     <ClCompile Include="CIdleState.cpp" />
+    <ClCompile Include="CImageButton.cpp" />
     <ClCompile Include="CImageObject.cpp" />
     <ClCompile Include="CKeyManager.cpp" />
     <ClCompile Include="CPanelUI.cpp" />

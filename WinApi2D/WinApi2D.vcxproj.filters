@@ -204,10 +204,7 @@
     <ClInclude Include="CImageObject.h">
       <Filter>Object\Title</Filter>
     </ClInclude>
-    <ClInclude Include="CBackGroundObject.h">
-      <Filter>Object\Title</Filter>
-    </ClInclude>
-    <ClInclude Include="CBgHousObject.h">
+    <ClInclude Include="CImageButton.h">
       <Filter>Object\Title</Filter>
     </ClInclude>
   </ItemGroup>
@@ -320,10 +317,7 @@
     <ClCompile Include="CImageObject.cpp">
       <Filter>Object\Title</Filter>
     </ClCompile>
-    <ClCompile Include="CBackGroundObject.cpp">
-      <Filter>Object\Title</Filter>
-    </ClCompile>
-    <ClCompile Include="CBgHousObject.cpp">
+    <ClCompile Include="CImageButton.cpp">
       <Filter>Object\Title</Filter>
     </ClCompile>
   </ItemGroup>
