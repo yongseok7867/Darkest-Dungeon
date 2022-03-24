@@ -2,6 +2,7 @@
 #include "CScene_Title.h"
 #include "CImageObject.h"
 #include "CImageButton.h"
+#include "CSoundManager.h"
 
 CScene_Title::CScene_Title()
 {
@@ -62,6 +63,10 @@ void CScene_Title::Enter()
 	exitButton->SetScale(fPoint(100.f, 50.f));
 	exitButton->SetClickedCallBack(ClickExitButton, 0, 0);
 	AddObject(exitButton, GROUP_GAMEOBJ::UI);
+
+	// 6. »ç¿îµå
+	CSoundManager::GetInst()->AddSound(L"TitleBgm", L"sound\\Thunder_Telecasted.mp3", true);
+	CSoundManager::GetInst()->Play(L"TitleBgm");
 }
 
 void CScene_Title::Exit()
