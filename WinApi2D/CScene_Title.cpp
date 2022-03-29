@@ -65,7 +65,7 @@ void CScene_Title::Enter()
 	AddObject(exitButton, GROUP_GAMEOBJ::UI);
 
 	// 6. »ç¿îµå
-	CSoundManager::GetInst()->AddSound(L"TitleBgm", L"sound\\Thunder_Telecasted.mp3", true);
+	CSoundManager::GetInst()->AddSound(L"TitleBgm", L"sound\\mus_theme_outro_loop {a7ac5749-3174-4c7e-bf69-c8d838617124}.wav", true);
 	CSoundManager::GetInst()->Play(L"TitleBgm");
 }
 

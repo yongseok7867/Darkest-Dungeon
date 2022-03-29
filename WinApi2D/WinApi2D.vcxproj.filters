@@ -76,6 +76,9 @@
     <Filter Include="Object\Title">
       <UniqueIdentifier>{52521772-fd3c-4f06-86c0-70ba88aee0aa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Object\combat">
+      <UniqueIdentifier>{eadba908-a264-44c2-a06d-0d2f38aae91c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -198,17 +201,17 @@
     <ClInclude Include="CTraceState.h">
       <Filter>Engine\Component\AI\State</Filter>
     </ClInclude>
-    <ClInclude Include="CScene_Title.h">
-      <Filter>Scene</Filter>
-    </ClInclude>
-    <ClInclude Include="CImageObject.h">
-      <Filter>Object\Title</Filter>
-    </ClInclude>
     <ClInclude Include="CImageButton.h">
       <Filter>Object\Title</Filter>
     </ClInclude>
+    <ClInclude Include="CScene_Title.h">
+      <Filter>Object\Title</Filter>
+    </ClInclude>
     <ClInclude Include="CScene_Stage01.h">
-      <Filter>Scene</Filter>
+      <Filter>Object\combat</Filter>
+    </ClInclude>
+    <ClInclude Include="CImageObject.h">
+      <Filter>Resouce\Texture</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -314,17 +317,17 @@
     <ClCompile Include="CTraceState.cpp">
       <Filter>Engine\Component\AI\State</Filter>
     </ClCompile>
-    <ClCompile Include="CScene_Title.cpp">
-      <Filter>Scene</Filter>
-    </ClCompile>
-    <ClCompile Include="CImageObject.cpp">
-      <Filter>Object\Title</Filter>
-    </ClCompile>
     <ClCompile Include="CImageButton.cpp">
       <Filter>Object\Title</Filter>
     </ClCompile>
+    <ClCompile Include="CScene_Title.cpp">
+      <Filter>Object\Title</Filter>
+    </ClCompile>
     <ClCompile Include="CScene_Stage01.cpp">
-      <Filter>Scene</Filter>
+      <Filter>Object\combat</Filter>
+    </ClCompile>
+    <ClCompile Include="CImageObject.cpp">
+      <Filter>Resouce\Texture</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

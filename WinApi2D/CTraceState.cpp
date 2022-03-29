@@ -1,6 +1,5 @@
 #include "framework.h"
 #include "CTraceState.h"
-#include "CPlayer.h"
 
 CTraceState::CTraceState(STATE_MON state)
 	: CState(state)
