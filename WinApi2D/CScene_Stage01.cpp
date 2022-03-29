@@ -38,23 +38,65 @@ void CScene_Stage01::Enter()
 	
 	// 2. 백그라운드 이미지 출력용 오브젝트 제작
 	CImageObject* bgHousObjcet = new CImageObject;
-	bgHousObjcet->SetPos(fPoint(640.f, 540.f));
+	bgHousObjcet->SetPos(fPoint(640.f, 520.f));
 	bgHousObjcet->SetScale(fPoint(640.f, 180.f));
 	bgHousObjcet->Load(L"PanelInventory", L"texture\\panel_inventory.png");
 	AddObject(bgHousObjcet, GROUP_GAMEOBJ::BACKGROUND);
 
 	CImageObject* bgHousObjcet2 = new CImageObject;
-	bgHousObjcet2->SetPos(fPoint(0.f, 610.f));
+	bgHousObjcet2->SetPos(fPoint(0.f, 590.f));
 	bgHousObjcet2->SetScale(fPoint(640.f, 110.f));
 	bgHousObjcet2->Load(L"PanelHero", L"texture\\panel_hero.png");
 	AddObject(bgHousObjcet2, GROUP_GAMEOBJ::BACKGROUND);
 
 	CImageObject* bgHousObjcet3 = new CImageObject;
-	bgHousObjcet3->SetPos(fPoint(-30.f, 540.f));
+	bgHousObjcet3->SetPos(fPoint(-30.f, 520.f));
 	bgHousObjcet3->SetScale(fPoint(683.f, 70.f));
 	bgHousObjcet3->Load(L"PanelBanner", L"texture\\panel_banner.png");
 	AddObject(bgHousObjcet3, GROUP_GAMEOBJ::BACKGROUND);
+
+	CImageObject* bgHousObjcet4 = new CImageObject;
+	bgHousObjcet4->SetPos(fPoint(238.f, 614.f));
+	bgHousObjcet4->SetScale(fPoint(70.f, 78.f));
+	bgHousObjcet4->Load(L"EqpWeapon", L"texture\\eqp_weapon_0.png");
+	AddObject(bgHousObjcet4, GROUP_GAMEOBJ::BACKGROUND);
+
+	CImageObject* bgHousObjcet5 = new CImageObject;
+	bgHousObjcet5->SetPos(fPoint(319.f, 614.f));
+	bgHousObjcet5->SetScale(fPoint(70.f, 78.f));
+	bgHousObjcet5->Load(L"EqpArmour", L"texture\\eqp_armour_0.png");
+	AddObject(bgHousObjcet5, GROUP_GAMEOBJ::BACKGROUND);
+
+	CImageObject* bgHousObjcet6 = new CImageObject;
+	bgHousObjcet6->SetPos(fPoint(29.f, 534.f));
+	bgHousObjcet6->SetScale(fPoint(80.f, 50.f));
+	bgHousObjcet6->Load(L"CrusaderPortrait", L"texture\\crusader_portrait_roster.png");
+	AddObject(bgHousObjcet6, GROUP_GAMEOBJ::BACKGROUND);
 	
+	CImageObject* bgHousObjcet7 = new CImageObject;
+	bgHousObjcet7->SetPos(fPoint(245.f, 534.f));
+	bgHousObjcet7->SetScale(fPoint(71.f, 43.f));
+	bgHousObjcet7->Load(L"CrusaderAbilityFive", L"texture\\crusader.ability.five.png");
+	AddObject(bgHousObjcet7, GROUP_GAMEOBJ::BACKGROUND);
+
+	CImageObject* bgHousObjcet8 = new CImageObject;
+	bgHousObjcet8->SetPos(fPoint(318.f, 534.f));
+	bgHousObjcet8->SetScale(fPoint(71.f, 43.f));
+	bgHousObjcet8->Load(L"CrusaderAbilityFour", L"texture\\crusader.ability.four.png");
+	AddObject(bgHousObjcet8, GROUP_GAMEOBJ::BACKGROUND);
+
+	CImageObject* bgHousObjcet9 = new CImageObject;
+	bgHousObjcet9->SetPos(fPoint(391.f, 534.f));
+	bgHousObjcet9->SetScale(fPoint(71.f, 43.f));
+	bgHousObjcet9->Load(L"CrusaderAbilityOne", L"texture\\crusader.ability.one.png");
+	AddObject(bgHousObjcet9, GROUP_GAMEOBJ::BACKGROUND);
+
+	CImageObject* bgHousObjcet10 = new CImageObject;
+	bgHousObjcet10->SetPos(fPoint(464.f, 534.f));
+	bgHousObjcet10->SetScale(fPoint(71.f, 43.f));
+	bgHousObjcet10->Load(L"CrusaderAbilitySeven", L"texture\\crusader.ability.seven.png");
+	AddObject(bgHousObjcet10, GROUP_GAMEOBJ::BACKGROUND);
+
 	/*
 	// 4. 시작 버튼
 	CImageButton* startButton = new CImageButton;
